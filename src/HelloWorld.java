@@ -7,7 +7,8 @@ public class HelloWorld {
     //Array fre = [141,41]
 
     //josh = 123;
-    System.out.print("Hello, World!");
+    System.out.print("Hello");
+    System.out.print(", World!");
   }
 }
 //
