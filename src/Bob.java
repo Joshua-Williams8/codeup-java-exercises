@@ -8,7 +8,7 @@ public class Bob {
     String name = userInput.nextLine();
     if(name.endsWith("!")){
       System.out.println("Whoa, chill out!");
-    } else if(name.trim().equals("")){
+    } else if(name.isEmpty()){
       System.out.println("Fine. Be that way!");
     } else if(name.endsWith("?")){
       System.out.println("Sure.");
@@ -20,7 +20,7 @@ public class Bob {
     String day = userInput.nextLine();
     if(day.endsWith("!")){
       System.out.println("Whoa, chill out!");
-    } else if(day.trim().equals("")){
+    } else if(day.isEmpty()){
       System.out.println("Fine. Be that way!");
     } else if(day.endsWith("?")){
       System.out.println("Sure.");
@@ -34,7 +34,7 @@ public class Bob {
     boolean homeThere = home != -1;
     if(hero.endsWith("!")){
       System.out.println("Whoa, chill out!");
-    } else if(hero.trim().equals("")){
+    } else if(hero.isEmpty()){
       System.out.println("Fine. Be that way!");
     } else if(hero.endsWith("?")){
       System.out.println("Sure.");
