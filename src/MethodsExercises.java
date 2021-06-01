@@ -177,7 +177,10 @@ public class MethodsExercises {
 //    System.out.println(multiplyRec(2,3,2));
 
     //Part 2 (done)
-//    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
+    //getIntegerPlease(1,10);
+    //getIntegerPlease(1,22);
+
     //Part 3 Original
 //    Scanner input = new Scanner(System.in);
 //    System.out.println("Please enter a minimum check");
@@ -188,16 +191,16 @@ public class MethodsExercises {
 
 
     //PArt 3 redid as intended
-//    Scanner input = new Scanner(System.in);
-//    System.out.println("Please enter a minimum check");
-//    long mini = input.nextInt();
-//    System.out.println("Please enter a maximum check");
-//    long maxi = input.nextInt();
-//    factorial(getIntegerPlease(mini, maxi));
+    Scanner input = new Scanner(System.in);
+    System.out.println("Please enter a minimum check");
+    long mini = input.nextInt();
+    System.out.println("Please enter a maximum check");
+    long maxi = input.nextInt();
+    factorial(getIntegerPlease(mini, maxi));
 
 
     //Part 4
-    diceRollApp();
+//    diceRollApp();
 
   }
 }

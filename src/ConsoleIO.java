@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
+
 public class ConsoleIO {
-  public static void main(String[] args){
+  public static void main(String[] args) {
     System.out.println("Test print ln");
     String name = "Keith";
     System.out.printf("Testprint %s", name);
 
     System.out.format("\ntest format %d number and %S's", 31, "String s");
-    System.out.printf("\ntest boolean %b",false);
+    System.out.printf("\ntest boolean %b", false);
     //d fo integer numbers
     //s string, S will make everything uppercase?
     // b for boolean
@@ -26,5 +27,8 @@ public class ConsoleIO {
     System.out.println("Give me a number.");
     int testNum = scannerTest.nextInt();
     System.out.printf("Here's the number %d%n", testNum);
+
+
+
   }
 }

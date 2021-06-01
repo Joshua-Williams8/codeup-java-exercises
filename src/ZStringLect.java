@@ -34,11 +34,13 @@ public class ZStringLect {
 //    System.out.println(testSub.replace("bro", "bruh"));
 
     ///.trim() takes white space off the end and the front.
-    String testWhiteSpace = "      oh    no    .     ";
-    System.out.printf("Test %s!", testWhiteSpace.trim());
-    String hero = "Work please";
-    int home = hero.toLowerCase(Locale.ROOT).indexOf("home");
-    System.out.println(home);
+//    String testWhiteSpace = "      oh    no    .     ";
+//    System.out.printf("Test %s!", testWhiteSpace.trim());
+//    String hero = "Work please";
+//    int home = hero.toLowerCase(Locale.ROOT).indexOf("home");
+//    System.out.println(home);
+//
+    String hi = "4" + 3;
   }
 
 }

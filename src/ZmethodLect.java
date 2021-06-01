@@ -54,5 +54,7 @@ public class ZmethodLect {
 //    count(5);
 
     willYou(new Scanner (System.in));
+
+
   }
 }

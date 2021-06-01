@@ -32,6 +32,12 @@ public class HighLow {
     } else {
       System.out.printf("You guessed the correct number it was\n%d\nYou made %d guesses.", randomNum, guessCount);
     }
+    System.out.println("Press y then enter to play again.");
+    Scanner sc2 = new Scanner(System.in);
+    String confirm = sc2.nextLine();
+    if (confirm.equalsIgnoreCase("y")) {
+      highLow();
+    }
   }
 
   public static void main(String[] args) {
