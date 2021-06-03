@@ -29,6 +29,7 @@ public class Circle {
 //    System.out.println("You should be asking me?");
     //You can't put this in the if state cause it won't run properly?
     if (ask){
+      System.out.println("Please enter another radius.");
       this.radius = getting.getDouble();
 //      System.out.println(this.radius);
       System.out.printf("New circumference is %f.\n",getCircumference());

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Person {
   String name;
 
@@ -20,6 +22,12 @@ public class Person {
 //TODO: print a message to the console using the person's name
     System.out.printf("Hello %s\n", this.name);
   }
+
+//  public static Person[] addPerson(Person[] pArray, Person pObject){
+//    Person[] result = Arrays.copyOf(pArray, pArray.length + 1);
+//    result[pArray.length + 1] = pObject;
+//    return result;
+//  }
 
   public static void main(String[] args) {
     Person josh = new Person("NotJosh");

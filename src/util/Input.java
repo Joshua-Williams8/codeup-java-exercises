@@ -29,7 +29,6 @@ public class Input {
     System.out.println("Press press enter y or yes to continue");
     String outPut = scanner.nextLine();
     if(outPut.equalsIgnoreCase("y") || outPut.equalsIgnoreCase("yes")){
-      System.out.println("Please enter another radius.");
       return true;
     } else {
       return false;
