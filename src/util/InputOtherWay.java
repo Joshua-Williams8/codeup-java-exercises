@@ -3,15 +3,12 @@ package util;
 
 import java.util.Scanner;
 
-public class Input {
+public class InputOtherWay {
 
-  private Scanner scanner = new Scanner(System.in);
-  //Below was the way Jay did it, but I'm not sure if what effects it can have?.
-  //The rest of the code works with it either way
-// private Scanner scanner;
-//  public InputOtherWay(){
-//    this.scanner = new Scanner(System.in);
-//  }
+  private Scanner scanner;
+  public InputOtherWay(){
+    this.scanner = new Scanner(System.in);
+  }
 
 
   public String getString(){
@@ -89,12 +86,12 @@ public class Input {
     return outPut;
   }
 //
-//  public static void main(String[] args) {
-//
-//    Input testing = new Input();
-//    System.out.println(testing.getInt());
-//
-//  }
+  public static void main(String[] args) {
+
+    InputOtherWay testing = new InputOtherWay();
+    System.out.println(testing.getInt());
+
+  }
 
 
 }
