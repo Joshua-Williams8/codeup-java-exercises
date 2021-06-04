@@ -1,14 +1,17 @@
 import java.util.Arrays;
 
 public class Person {
-  String name;
+  //Above is a class used to create Objects.
+  //Below are all the fields (properties and methods), for said objects.
 
-  public Person(String name) {
+  String name;// This is a property, each Person object has a name property.
+
+  public Person(String name) { //This is a constructor method, it has the same name as the class, but it's for when you create a Person Object, to go ahead and give certain properties values, in this case just the name.
     this.name = name;
   }
 
 
-  public String getName() {
+  public String getName() { //This is a method for the Person objects, where it gets the name property
 //TODO: return the person's name
     return this.name;
   }
@@ -30,10 +33,11 @@ public class Person {
 //  }
 
   public static void main(String[] args) {
-    Person josh = new Person("NotJosh");
+    Person josh = new Person("NotJosh"); //this is an object created using the class Person.
     System.out.println(josh.getName());
     josh.setName("Josh");
     josh.sayHello();
+
 
     //Code block 1 output should be True, then false? This is a guess.
 //    Person person1 = new Person("John");
