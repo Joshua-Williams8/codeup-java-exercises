@@ -19,7 +19,12 @@ public class ShapesTest {
     System.out.println(myShape.getPerimeter());
     System.out.println(myShape.getArea());
     //Below doesn't work because we can't access the abstract class directly.
-//    System.out.println(myShape.getLength);
+    //If we want to use getLength we have to add it to our interface,
+    //Our interface is limiting what we have access to.
+//    System.out.println(myShape.getLength());
+
+    //We need the getPerimeter method in rectangle because it's part of the abstract class blue print.
+    //The getters were defined inside of Quadrilateral, so they're only accessible in there, but if we wanted to use methods we would need to reference the quadrilateral type.
 
   }
 }
