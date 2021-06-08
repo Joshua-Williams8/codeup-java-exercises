@@ -1,8 +1,6 @@
 package grades;
 
-import shapes.Square;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -23,6 +21,7 @@ public class GradesApplication {
     String choice = sc.nextLine();
     String search = "";
     boolean useData = false;
+    //.containsKey?
     for(String test: keyArray){
       if(test.equalsIgnoreCase(choice)){
         useData = true;
@@ -36,13 +35,11 @@ public class GradesApplication {
       double average = hashmap.get(search).getGradeAverage();
       String name = hashmap.get(search).getName();
       String ghName = search;
-      System.out.printf("Name: %s - GitHub Username: %s\n Current Average: %f\n", name, search, average);
-
-
+      System.out.printf("Name: %s - GitHub Username: %s\nCurrent Average: %.2f\n", name, search, average);
     } else{
       System.out.printf("Sorry, no student found with the GitHub username of %s.\n",choice);
     }
-    System.out.println("Would you like to see another student?\n Please enter y or yes to see another student.");
+    System.out.println("Would you like to see another student?\nPlease enter y or yes to see another student.");
 
     choice = sc.nextLine();
     if(choice.equals("y") || choice.equals("yes")){
@@ -50,7 +47,6 @@ public class GradesApplication {
     } else {
       System.out.println("Have a good day goodbye!");
     }
-
 
   }
 
