@@ -4,7 +4,8 @@ public class Person {
   //Above is a class used to create Objects.
   //Below are all the fields (properties and methods), for said objects.
 
-  String name;// This is a property, each Person object has a name property.
+  public String name;// This is a property, each Person object has a name property.
+
 
   public Person(String name) { //This is a constructor method, it has the same name as the class, but it's for when you create a Person Object, to go ahead and give certain properties values, in this case just the name.
     this.name = name;

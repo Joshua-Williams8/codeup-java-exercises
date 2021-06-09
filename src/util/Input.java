@@ -26,7 +26,7 @@ public class Input {
 
   public boolean yesNo(){
 //    Scanner why = new Scanner(System.in);
-    System.out.println("Press press enter y or yes to continue");
+    System.out.println("Press enter y or yes to continue");
     String outPut = scanner.nextLine();
     if(outPut.equalsIgnoreCase("y") || outPut.equalsIgnoreCase("yes")){
       return true;
