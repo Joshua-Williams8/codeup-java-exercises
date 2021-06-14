@@ -45,7 +45,7 @@ public class Input {
   }
 
   public int getInt(int min, int max){
-    System.out.printf("enter a number between %d, and %d\n", min, max);
+    System.out.printf("Enter a number between %d, and %d\n", min, max);
     int outPut = scanner.nextInt();
     scanner.nextLine();
     if(outPut >= min && outPut <= max) {
