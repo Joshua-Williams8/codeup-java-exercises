@@ -1,8 +1,10 @@
+import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class ZStringLect {
   public static void main(String[] args) {
+
 
     Scanner scanner = new Scanner(System.in);
     //Remember if taking input or wanted the values of something to be equal use the
@@ -41,6 +43,9 @@ public class ZStringLect {
 //    System.out.println(home);
 //
     String hi = "4" + 3;
+    // int test1 = 5;
+    // byte test11 = test1;
+    // long test2 = test1;
   }
 
 }

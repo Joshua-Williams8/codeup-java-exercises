@@ -21,13 +21,12 @@ class Refrigerator extends Appliance {
     //this.type = type;
     //this.brandName - brandName;
   }
-  public void setType(String type){
+  public void setType( String type){
     this.type = type;
   }
   public void setBrandName(String brandName){
     this.brandName = brandName;
   }
-
   public void keepFresh(){
     Scanner sc = new Scanner(System.in);
     System.out.println("Would you like to put something in here?");
