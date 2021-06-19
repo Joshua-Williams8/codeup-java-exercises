@@ -64,7 +64,5 @@ public class Person {
     person2.setName("Jane");
     System.out.println(person1.getName()); //Not sure why person1 got changed unless both are referencing the same data? like how they share ids.
     System.out.println(person2.getName());
-
-
   }
 }
