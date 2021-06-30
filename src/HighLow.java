@@ -16,12 +16,12 @@ public class HighLow {
     }
     while (userGuess != randomNum && guessCount <= maxGuess) {
       if (userGuess < randomNum) {
-        System.out.println("Guess Higher!");
+          System.out.println("HIGHER");
         userGuess = sc.nextInt();
         guessCount++;
 
       } else if (userGuess > randomNum) {
-        System.out.println("Guess Lower!");
+        System.out.println("LOWER");
         userGuess = sc.nextInt();
         guessCount++;
 
@@ -30,7 +30,8 @@ public class HighLow {
     if (guessCount > maxGuess) {
       System.out.println("You're out of guesses! You went over 10 guesses.");
     } else {
-      System.out.printf("You guessed the correct number it was\n%d\nYou made %d guesses.", randomNum, guessCount);
+      System.out.println("GOOD GUESS!");
+      System.out.printf("You guessed the correct number it was\n%d\nYou made %d guesses.\n", randomNum, guessCount);
     }
     System.out.println("Press y then enter to play again.");
     Scanner sc2 = new Scanner(System.in);
