@@ -1,6 +1,8 @@
 package zLectAnotations;
 
 public class Fruit implements Food{
+  //  Since this implements food, it has to have a taste() method defined.
+
 
   private String flavor;
 
