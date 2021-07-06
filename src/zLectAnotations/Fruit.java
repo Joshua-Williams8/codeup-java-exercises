@@ -10,6 +10,7 @@ public class Fruit implements Food{
   public void tasteBitter(){
     System.out.println("ew");
   }
+//The deprecated lets java know we are getting rid of this method and need to stop using it.
 
   @Deprecated
   private boolean hasFlesh;
