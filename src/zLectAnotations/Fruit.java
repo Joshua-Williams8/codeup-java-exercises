@@ -20,6 +20,7 @@ public class Fruit implements Food{
 
   //@Override is meant to override a method in a super class. This isn't required to do it, but it shows other devs that you want to use this instead.
   @Override
+//  Below is needed because we are impleting Food
   public String taste(){
     return this.flavor;
   }
