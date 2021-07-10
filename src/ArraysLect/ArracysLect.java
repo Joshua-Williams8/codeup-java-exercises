@@ -73,7 +73,7 @@ public class ArracysLect {
     };
     for (String[] ele : stuff){ //Note the type stringArray
       System.out.println(ele);// Prints the object references
-      for (String eleEle : ele){ //Note the type just STring
+      for (String eleEle : ele){ //Note the type just String
         System.out.println(eleEle);
       }
     }
