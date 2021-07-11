@@ -1,4 +1,5 @@
 package GroceryList;
+//This class is to store each it's name and the amount of this item.
 
 public class GroItem {
   private String name;
