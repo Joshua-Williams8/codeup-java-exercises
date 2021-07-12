@@ -50,6 +50,7 @@ public class Student {
   }
 
   public static void main(String[] args) {
+//    Setting up test student object to make sure things are working as expected.
     Student notMe = new Student("NotJosh");
     notMe.addGrade(25);
     notMe.addGrade(20);
