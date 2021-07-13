@@ -56,7 +56,6 @@ public class Student {
     notMe.addGrade(20);
     System.out.println(notMe.grades); // expecting [20,25]
     System.out.println(notMe.getGradeAverage()); //expecting 22.5
-    //
   }
 
 
