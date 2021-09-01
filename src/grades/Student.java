@@ -1,6 +1,8 @@
 package grades;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Student {
   private String name;
@@ -49,13 +51,31 @@ public class Student {
     return result;
   }
 
+  public static void swapArrays(String[] arrayOne, String[] arrayTwo){
+
+    for(int i = 0; i <= arrayOne.length -1; i++){
+      String copyOne = arrayOne[i];
+      arrayOne[i] = arrayTwo[i];
+      arrayTwo[i] = copyOne;
+
+    }
+  }
+
   public static void main(String[] args) {
-//    Setting up test student object to make sure things are working as expected.
-    Student notMe = new Student("NotJosh");
-    notMe.addGrade(25);
-    notMe.addGrade(20);
-    System.out.println(notMe.grades); // expecting [20,25]
-    System.out.println(notMe.getGradeAverage()); //expecting 22.5
+    String[] testOne = {"One","Two","Three"};
+    String[] testTwo = {"six","five","four"};
+
+    swapArrays(testOne,testTwo);
+    System.out.println(Arrays.toString(testOne));
+    System.out.println(Arrays.toString(testTwo));
+
+////    Setting up test student object to make sure things are working as expected.
+//    Student notMe = new Student("NotJosh");
+//    notMe.addGrade(25);
+//    notMe.addGrade(20);
+//    System.out.println(notMe.grades); // expecting [20,25]
+//    System.out.println(notMe.getGradeAverage()); //expecting 22.5
+
   }
 
 
