@@ -1,4 +1,4 @@
-package JAM.Package1;
+package JobPrep.JAM.Package1;
 
 public class AccessTwo {
   public static void main(String[] args) {

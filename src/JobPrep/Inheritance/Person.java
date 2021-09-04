@@ -1,4 +1,4 @@
-package Inheritance;
+package JobPrep.Inheritance;
 
 public class Person {
   public String name;

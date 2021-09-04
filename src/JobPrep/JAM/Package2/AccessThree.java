@@ -1,6 +1,6 @@
-package JAM.Package2;
+package JobPrep.JAM.Package2;
 
-import JAM.Package1.AccessOne;
+import JobPrep.JAM.Package1.AccessOne;
 
 public class AccessThree extends AccessOne {
 //  public class AccessThree {

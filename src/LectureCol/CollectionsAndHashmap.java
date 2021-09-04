@@ -48,6 +48,7 @@ public class CollectionsAndHashmap {
 //    // Also this returns a boolean, if it returns true it removes if not it's returns false?
 //    System.out.println(studentNames);
 
+//    If you don't define what the list contrains, you can put any object in there?
     ArrayList stuff = new ArrayList();
 
     stuff.add("TestString");

@@ -1,4 +1,4 @@
-package Inheritance;
+package JobPrep.Inheritance;
 
 public class People {
   public static void main(String[] args) {
