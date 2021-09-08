@@ -29,6 +29,7 @@ public class Variables {
 
 //  NOTE: Local Variable
 //  A varaible declared inside the body of a method is called a local variable. You can use this varaible ONLY within the method and the other methods in the class aren't even aware, that it exists.
+//  Used to store values that are required for aparticular method.
 
   public void soutLVInside(){
     String aLocalVar = "I'm inside this method!";
@@ -43,7 +44,7 @@ public class Variables {
 
 //  NOTE: Static variable
 //  A varaible that is declared as static, it cannot be local. You can create a single copy of it and share it among all the instances of the class.
-
+// Have the same lifetime as the program. Only have one single copy of the entire class? USed for storing constants.
   public static String aStaticVar = "A Static string";
 
   public static void soutSV(){
