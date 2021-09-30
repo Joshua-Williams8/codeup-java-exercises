@@ -6,10 +6,7 @@ public abstract class Laptop {
   private String make;
   private String model;
 
-  public Laptop(int releaseYear, double weight, String make, String model) {
-    this.releaseYear = releaseYear;
-    this.weight = weight;
-    this.make = make;
+  public Laptop(String model) {
     this.model = model;
   }
 

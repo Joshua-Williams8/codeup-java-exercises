@@ -1,4 +1,5 @@
 package Electronics;
 
-public class Dell {
+public class Dell extends Laptop {
+
 }
