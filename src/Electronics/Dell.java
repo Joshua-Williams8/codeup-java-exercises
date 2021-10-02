@@ -9,5 +9,4 @@ public class Dell extends Laptop {
     setModel(model);
   }
 
-
 }
