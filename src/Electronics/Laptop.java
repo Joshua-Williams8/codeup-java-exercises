@@ -1,6 +1,6 @@
 package Electronics;
 
-public abstract class Laptop {
+public abstract class Laptop implements LaptopInterface {
   private int releaseYear;
   private double weight;
   private String make;
